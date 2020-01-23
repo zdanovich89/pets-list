@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./script.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Homework#6</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-wrapper">
+      <img src="./img/depositphotos_151848376-stock-photo-cat-and-dog-logo.jpg" alt="wet" class="logo">
+      <h1 class="header-title">Wisdom Pet Medicine</h1>
+  </div>
+  </header>
+  <main>
+     <div>
+      <form action="" class="form">
+        <div class="wrapper">
+          <p class="title"><span class="plus">+</span>Add Appointment</p>
+          <div class="name">
+            <label for="name">Pet Name</label>
+            <input id="name" type="text" rel="name" placeholder="Pet's name" class="valid">
+          </div>
+          <div class="owner">
+            <label for="owner" >Pet Owner</label>
+            <input id="owner" type="text" placeholder="Owner's name" class="valid">
+          </div>
+          <div class="date">
+            <label for="date">Date</label>
+            <input id="date" type="text" placeholder="mm/dd/yyyy" class="valid">
+          </div>
+          <div class="time">
+            <label for="time">Time</label>
+            <input id="time" type="text" placeholder="--:-- --" class="valid">
+          </div>
+          <div class="notes">
+            <label for="notes">Apt.Notes</label>
+            <textarea id="notes" type="text" rows="4" cols="120" placeholder="Appointment Notes" class="valid"></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Add Appointment">
+          </div>   
+      </div>  
+      </form>
+    </div>
+    <div>
+      <form action="" class="search">
+        <input id="search_bar" placeholder="Search" type="search" >
+        <select name="sort" class="sort">
+          <option selected hidden>Sort by:</option>
+          <option value="name">Name</option>
+          <option value="owner">Owner</option>
+          <option value="date">Date</option>
+          <option value="time">Time</option>
+          <option value="notes">Notes</option>
+      </select>
+      </form>
+    </div>
+
+    <div class="userItems">
+      <div class="list">
+        <div class="imgDiv"></div>
+        
+        <div class="newName"></div>
+        
+        <div class="newDate"></div>
+        
+        <div class="newTime"></div>
+       
+        <div class="newOwner"></div>
+                 
+        <div class="newNotes"></div>          
+        
+      </div>
+    </div> 
+  </main>
+  </body>
+</html>

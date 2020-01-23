@@ -1,0 +1,199 @@
+body{
+  padding:0px;
+  margin:0px;
+  }
+
+.form {
+  margin: 0 auto;
+  max-width: 1024px;
+  border:solid rgba(62, 150, 222) 1px;
+  border-radius: 5px;
+}
+
+.wrapper {
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  background-color: rgba(62, 150, 222);
+  margin: auto 0px;
+  height: 3em;
+  width: 100%;  
+}
+
+input[type=text] {
+  margin: 0.5em;
+  box-shadow: none;
+}
+
+input[id=name], input[id=owner], input[id=date], input[id=time] {
+  border-radius: 3px;
+  width: 88%;
+  height: 2em;
+  padding-left: 6px;
+}
+
+#notes {
+  border-radius: 3px;
+  margin: 0.5em;
+  width: 90%;
+}
+
+label {
+  margin: 0.5em;
+}
+
+.name, .owner, .date, .time, .notes, .submit {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+.notes {
+  width: 89.5%;
+}
+
+.date, .time {
+  width: 37%;
+  margin-left: 122px;
+}
+
+.submit {
+  margin: 1em 0.5em 2em 0em;
+}
+
+input[type=submit] {
+  background-color: rgba(62, 150, 222);
+  color: azure;
+  border: 0px;
+  border-radius: 7px;
+  height: 2.5em;
+  font-weight: bold;
+}
+
+.plus {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0px 5px 0px 15px;
+}
+
+.title {
+  color: azure;
+  padding-right: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(62, 150, 222);
+  margin-bottom: 35px;
+}
+
+.header-title{
+  color: azure;
+  margin-left: 20px;
+}
+
+.header-wrapper {
+  align-items: center;
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.list {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+}
+
+.imgDiv img{
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.newName {
+  color: green;
+  width: 80%;
+  font-weight: bold;
+  color: rgba(62, 150, 222);
+  font-size: 1.5em;
+}
+
+.newDate, .newTime  {
+  margin: 0 3px;
+  font-style: italic;
+  color: grey;
+}
+
+.newOwner {
+  width: 100%;
+  margin: 3px 0px 3px 25px;
+  color: grey;
+}
+
+.newNotes {
+  margin: 3px 0px 3px 25px;
+  color: grey;
+}
+
+.search {
+  display: flex;
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+input[id=search_bar] {
+  width: 500px;
+  border-right: 0px;
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: none;
+  border: 1px solid grey;
+  padding-left: 10px;
+  height: 2em;
+}
+
+select[name=sort]  {
+  color: white;
+  background-color: rgba(62, 150, 222); 
+  border: solid grey 1px;
+  border-left: none;
+  border-radius: 0px 5px 5px 0px;
+}
+
+select[name=sort] option {
+  font-weight: bold;
+  color: grey;
+  background-color: white;
+}
+
+.valid {
+  border: solid rgb(206, 198, 198) 1px;
+}
+
+.invalid {
+  border-color: red;
+}
+
+
